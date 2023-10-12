@@ -1,0 +1,43 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header {
+  background-color: #ff9900;
+  color: #790a0a;
+  border-radius: 15px;
+  padding: 20px;
+  font-size: 24px;
+}
+
+main {
+  flex-grow: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ButtonGroup {
+  margin-top: 20px;
+  size: 45px;
+}
+
+Button {
+  background-color: #000000;
+  color: #ff0000;
+  margin: 5px;
+}
+
+footer {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+}
